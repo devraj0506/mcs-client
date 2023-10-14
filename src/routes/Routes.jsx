@@ -15,7 +15,7 @@ children:[
   {path: "/", element:<HomePage/>,
 },
   {path: "/:id", element:<SerchedUserPage/>,
-    loader:({params})=> fetch(`http://localhost:5000/${params.id}`)
+    loader:({params})=> fetch(`https://mcs-server-eta.vercel.app/${params.id}`)
     },
  
 ]    },

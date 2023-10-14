@@ -14,7 +14,7 @@ function Hero() {
 
   useEffect(() => {
     // Fetch user data from the API
-    axios.get('http://localhost:5000')
+    axios.get('https://mcs-server-eta.vercel.app/')
       .then((response) => {
         const userOptions = response.data.map((user) => ({
           value: user._id,
