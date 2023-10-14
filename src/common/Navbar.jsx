@@ -25,7 +25,7 @@ export default function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="#"
-                    className=" hover:bg-[#0076CE]  px-3 py-2 rounded-md text-lg  decoration-black	font-bold"
+                    className=" hover:bg-[#0076CE] hover:text-white  px-3 py-2 rounded-md text-lg  decoration-black	font-bold"
                   >
                     Solutions
                   </a>
